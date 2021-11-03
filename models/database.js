@@ -5,10 +5,11 @@ var db;
 
 function connection(){
     const db = mysql.createConnection({
-        host: 'localhost',
-        user: 'root',
-        password: '', 
-        database: 'monidb'
+        host: 'remotemysql.com',
+        user: '9BqvzyD6XP',
+        password: 't00IhGtbUp', 
+        database: '9BqvzyD6XP',
+        port: '3306'
     });
 
     db.connect((err)=>{
