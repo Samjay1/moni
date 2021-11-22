@@ -3,7 +3,6 @@ const bodyParser = require('body-parser');
 const { response } = require('express');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken'); 
-const mysql = require("mysql");
 const verifyToken = require('../verifyToken');
 
 router.use(bodyParser.json());
